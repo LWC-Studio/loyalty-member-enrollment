@@ -1,0 +1,104 @@
+.member-enroll-container {
+background: url('https://image.s4.sfmc-content.com/lib/fe30117276640474731270/m/1/ffe75c08-0c90-4e7f-aa46-92747aa1a8cd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 22px;
+    background-color: #fff;
+}
+
+.title {
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 26px;
+}
+
+.subtitle {
+    color: #747474;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+}
+
+.c-input{
+background: #F4F6F9;
+border: 2px solid #F4F6F9;
+border-radius: 15px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+
+.c-input:focus{
+border-color: var(--lwc-colorBrand);
+border-radius: 15px;
+background: #fff;
+box-shadow: 0 0 3px var(--lwc-colorBrand);
+}
+
+.slds-checkbox [type="checkbox"]:focus + .slds-checkbox__label .slds-checkbox_faux {
+        border: 1px solid rgb(221, 219, 218);
+    box-shadow: none;
+}
+
+.slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux::after {
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    width: 0.65rem;
+    height: 0.325rem;
+    top: 42%;
+}
+
+.slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux {
+background: var(--lwc-colorBrand);
+    width: 20px;
+    height: 20px;
+}
+
+.slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux {
+    width: 20px;
+    height: 20px;
+}
+
+.c-button {
+--sds-c-button-brand-color-text-disabled: #747B84;
+    --sds-c-button-brand-color-background-disabled: #F4F6F9;
+    --sds-c-button-brand-color-border-disabled: transparent;
+--sds-c-button-brand-color-background: var(--lwc-colorBrand);
+--sds-c-button-brand-color-border: transparent;
+--sds-c-button-brand-color-text: #FFF;
+--sds-c-button-brand-color-background-hover: var(--lwc-colorBrand);
+--sds-c-button-brand-color-border-hover: transparent;
+--sds-c-button-brand-color-text-hover: #FFF;
+--sds-c-button-brand-color-background-active: var(--lwc-colorBrand);
+--sds-c-button-brand-color-border-active: transparent;
+--sds-c-button-brand-color-text-active: #FFF;
+--sds-c-button-shadow-focus: none;
+
+width: 100%;
+padding: 10px 17px;
+border-radius: 10px;
+line-height: 140%;
+font-size: 14px;
+font-weight: 600;
+}
+
+.error {
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #E24949;
+margin-top: 5px;
+}
+
+.c-color {
+    color:var(--lwc-colorBrand);
+}
+
+.c-font-14 {
+    font-size: 14px!important;
+}
+
+
